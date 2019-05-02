@@ -7,7 +7,7 @@ public class Vehicle {
     private boolean fourxfour;
 
     public Vehicle(){
-        System.out.println("A car has been created");
+
     }
 
     public String getWheels() {
