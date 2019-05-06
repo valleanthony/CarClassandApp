@@ -1,6 +1,6 @@
 package com.company;
 
-public class Vehicle {
+public abstract class Vehicle {
 
     private String wheels;
     private String engine;
@@ -34,15 +34,16 @@ public class Vehicle {
         this.fourxfour = fourxfour;
     }
 
-    public String speedup(){
-
-        return "i am going fast";
-    }
-
-
     public String setWheels() {
         return wheels;
     }
+
+    abstract String speedup();
+    abstract String run();
+    abstract String stop();
+    abstract String accelerate();
+
+
 }
 
 

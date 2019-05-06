@@ -52,7 +52,17 @@ public class Car extends Vehicle {
        return (" is starting");
     }
 
-    public  String stopped(){
-        return " is stopped";
+    public  String stop(){
+        return " Car has stopped";
+    }
+
+    @Override
+    String run() {
+        return null;
+    }
+
+    @Override
+    String speedup() {
+        return null;
     }
 }
