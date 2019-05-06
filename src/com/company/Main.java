@@ -16,6 +16,7 @@ public class Main {
         Car c1 = new Car("Blue","Honda");
         Car c2 = new Car("Red","Toyota");
         Car c3 =new Car("Red","Ford");
+        Driver bob = new Driver("Bob","25","7","Yes");
 
 
 
@@ -35,7 +36,7 @@ public class Main {
         allcars.add(c4);
 
         for (Car car:allcars){
-            System.out.println("This is a " + car.getColor()+ " "+ car.getModel());
+            System.out.println("This is a " + car.getColor()+ " "+ car.getModel()+ " and The Drivers name is "+bob.getName());
         }
 
 
